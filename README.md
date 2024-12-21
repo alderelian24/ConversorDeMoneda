@@ -58,12 +58,12 @@ Este proyecto es una aplicación Java que permite convertir valores entre difere
 
 1. **Clonar el Repositorio**:
    ```bash
-   git clone https://github.com/alderelian24/conversor-monedas.git
+   git clone https://github.com/alderelian24/ConversorDeMoneda.git
    ```
 
 2. **Compilar y Ejecutar**:
    ```bash
-   cd conversor-monedas
+   cd ConversorDeMoneda
    javac -d bin src/**/*.java
    java -cp bin Principal.Principal
    ```
