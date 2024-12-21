@@ -37,15 +37,12 @@ Este proyecto es una aplicación Java que permite convertir valores entre difere
 ## **Flujo del Programa**
 
 1. El usuario selecciona una opción de conversión desde un menú.
-   ![Ejemplo de Menú](assets/menu-example.png)
 
 2. El usuario ingresa el valor que desea convertir.
 
 3. El programa consulta la API externa para obtener la tasa de cambio actual.
 
 4. Muestra el resultado de la conversión en la consola.
-   ![Resultado de Conversión](assets/conversion-example.png)
-
 
 ---
 
@@ -61,7 +58,7 @@ Este proyecto es una aplicación Java que permite convertir valores entre difere
 
 1. **Clonar el Repositorio**:
    ```bash
-   git clone https://github.com/usuario/conversor-monedas.git
+   git clone https://github.com/alderelian24/conversor-monedas.git
    ```
 
 2. **Compilar y Ejecutar**:
@@ -83,8 +80,9 @@ Este proyecto es una aplicación Java que permite convertir valores entre difere
 ### **Configuración de la API**
 La API utilizada es `exchangerate-api`. El enlace base para las consultas es:
 ```
-https://v6.exchangerate-api.com/v6/15ebc6b3b2c181b3d979e4ae/latest/{codigoDeMoneda}
+https://v6.exchangerate-api.com/v6/APIKEY/latest/{codigoDeMoneda}
 ```
+- Reemplaza `{APIKEY}` con el API KEY que se te generó.
 - Reemplaza `{codigoDeMoneda}` con el código de moneda deseado (por ejemplo, `USD` o `EUR`).
 
 ### **Extensiones Posibles**
